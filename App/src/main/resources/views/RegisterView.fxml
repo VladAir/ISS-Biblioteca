@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <Label layoutX="206.0" layoutY="65.0" text="REGISTER">
+         <font>
+            <Font name="JetBrains Mono Regular" size="39.0" />
+         </font></Label>
+      <TextField layoutX="215.0" layoutY="144.0" prefHeight="25.0" prefWidth="173.0" />
+      <TextField layoutX="215.0" layoutY="188.0" prefHeight="25.0" prefWidth="173.0" />
+      <TextField layoutX="214.0" layoutY="231.0" prefHeight="25.0" prefWidth="173.0" />
+      <TextField layoutX="215.0" layoutY="269.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="252.0" layoutY="321.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="98.0" text="Register">
+         <font>
+            <Font name="JetBrains Mono Regular" size="12.0" />
+         </font></Button>
+      <Label layoutX="170.0" layoutY="147.0" text="NAME">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font></Label>
+      <Label layoutX="152.0" layoutY="191.0" text="E-MAIL">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="234.0" text="CNP">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="272.0" text="PASSWORD">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="504.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserController">
+   <children>
+      <ListView layoutX="14.0" layoutY="50.0" prefHeight="282.0" prefWidth="431.0" />
+      <ListView layoutX="515.0" layoutY="48.0" prefHeight="237.0" prefWidth="363.0" />
+      <Button layoutX="345.0" layoutY="339.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="102.0" text="BORROW">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="788.0" layoutY="297.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="92.0" text="REMOVE">
+         <font>
+            <Font name="JetBrains Mono Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="697.0" layoutY="297.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="81.0" text="+1">
+         <font>
+            <Font name="JetBrains Mono Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="745.0" layoutY="448.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="132.0" text="FINISH">
+         <font>
+            <Font name="JetBrains Mono Regular" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="15.0" text="Book List">
+         <font>
+            <Font name="JetBrains Mono Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="15.0" text="Your Books">
+         <font>
+            <Font name="JetBrains Mono Regular" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
